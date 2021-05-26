@@ -1,5 +1,3 @@
-/* eslint-disable  max-len */
-
 import operate from './operate';
 
 const calculate = (data, buttonName) => {
@@ -57,4 +55,3 @@ const calculate = (data, buttonName) => {
 };
 
 export default calculate;
-/* eslint-enable  max-len */
