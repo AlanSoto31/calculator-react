@@ -6,8 +6,10 @@ const calculate = (data, buttonName) => {
     case '+/-':
       if (!operation) {
         total *= -1;
+        total = total.toString();
       } else {
         next *= -1;
+        next = next.toString();
       }
       break;
     case 'AC':

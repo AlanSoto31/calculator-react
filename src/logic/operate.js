@@ -4,6 +4,7 @@ const operate = (numberOne, numberTwo, operation) => {
   const x = Big(numberOne);
   const y = Big(numberTwo);
   let r = 0;
+  const r2 = null;
   switch (operation) {
     case '+':
       r = (x).plus(y);
@@ -15,6 +16,9 @@ const operate = (numberOne, numberTwo, operation) => {
       r = x.times(y);
       break;
     case '÷':
+      if (y.e === 0) {
+        return r2;
+      }
       r = x.div(y);
       break;
     case '%':
