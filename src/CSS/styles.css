@@ -1,0 +1,34 @@
+
+* {
+    margin: 0;
+    font-family: sans-serif;
+    list-style: none;
+    box-sizing: border-box;
+  }
+
+.calc-cont{
+    width: 700px;
+    background: chocolate;
+}
+
+.disp-cont {
+    background: blueviolet;
+}
+
+.row-cont {
+    width: 100%;
+    background: cornflowerblue;
+}
+
+.flex-c {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-sb {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

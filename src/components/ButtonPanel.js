@@ -1,5 +1,6 @@
 import PropTypes from 'prop-types';
 import Button from './Button';
+import '../CSS/styles.css';
 
 const ButtonPanel = ({ clickHandler1 }) => {
   const group1 = ['AC', '+/-', '%', '÷'];
@@ -49,20 +50,20 @@ const ButtonPanel = ({ clickHandler1 }) => {
   ));
 
   return (
-    <div>
-      <div className="group-1">
+    <div className="calc-cont flex-c">
+      <div className="row-cont group-1 flex-sb">
         {elementsGroup1}
       </div>
-      <div className="group-2">
+      <div className="row-cont group-2 flex-sb">
         {elementsGroup2}
       </div>
-      <div className="group-3">
+      <div className="row-cont group-3 flex-sb">
         {elementsGroup3}
       </div>
-      <div className="group-4">
+      <div className="row-cont group-4 flex-sb">
         {elementsGroup4}
       </div>
-      <div className="group-5">
+      <div className="row-cont group-5 flex-sb">
         {elementsGroup5}
       </div>
     </div>
