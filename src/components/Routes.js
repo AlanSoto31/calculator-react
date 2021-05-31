@@ -8,7 +8,7 @@ function Routes() {
   return (
     <>
       <Navbar />
-      <main>
+      <main className="flex-r-c-c">
         <Switch>
           <Route path="/" component={Home} exact />
           <Route path="/calculator" component={Calculator} />
