@@ -4,7 +4,7 @@ import '../CSS/styles.css';
 
 const ButtonPanel = ({ clickHandler1 }) => {
   const group1 = ['AC', '+/-', '%', '÷'];
-  const group2 = ['2', '8', '9', 'x'];
+  const group2 = ['7', '8', '9', 'x'];
   const group3 = ['4', '5', '6', '-'];
   const group4 = ['1', '2', '3', '+'];
   const group5 = ['0', '.', '='];
@@ -14,6 +14,7 @@ const ButtonPanel = ({ clickHandler1 }) => {
       key={item}
       name={item}
       clickHandler2={(buttonName) => clickHandler1(buttonName)}
+      color={item === '÷' ? '#F5913E' : '#E0E0E0 '}
     />
   ));
 
@@ -22,6 +23,7 @@ const ButtonPanel = ({ clickHandler1 }) => {
       key={item}
       name={item}
       clickHandler2={(buttonName) => clickHandler1(buttonName)}
+      color={item === 'x' ? '#F5913E' : '#E0E0E0 '}
     />
   ));
 
@@ -30,6 +32,7 @@ const ButtonPanel = ({ clickHandler1 }) => {
       key={item}
       name={item}
       clickHandler2={(buttonName) => clickHandler1(buttonName)}
+      color={item === '-' ? '#F5913E' : '#E0E0E0 '}
     />
   ));
 
@@ -38,6 +41,7 @@ const ButtonPanel = ({ clickHandler1 }) => {
       key={item}
       name={item}
       clickHandler2={(buttonName) => clickHandler1(buttonName)}
+      color={item === '+' ? '#F5913E' : '#E0E0E0 '}
     />
   ));
 
@@ -46,6 +50,8 @@ const ButtonPanel = ({ clickHandler1 }) => {
       key={item}
       name={item}
       clickHandler2={(buttonName) => clickHandler1(buttonName)}
+      color={item === '=' ? '#F5913E' : '#E0E0E0 '}
+      wide={item === '0'}
     />
   ));
 

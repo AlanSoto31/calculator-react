@@ -46,3 +46,8 @@
     background: cornflowerblue;
 }
 
+.btn {
+    height: 100%;
+    font-size: 25px;
+    border: 1px solid #D1D1D1;
+}
