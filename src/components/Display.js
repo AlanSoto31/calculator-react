@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 function Display(props) {
   const { result } = props;
   return (
-    <h1>{result}</h1>
+    <div className="disp-cont flex-e-c"><p>{result}</p></div>
   );
 }
 
