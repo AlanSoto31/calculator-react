@@ -50,20 +50,20 @@ const ButtonPanel = ({ clickHandler1 }) => {
   ));
 
   return (
-    <div className="calc-cont flex-c">
-      <div className="row-cont group-1 flex-sb">
+    <div className="flex-c-c">
+      <div className="row-cont group-1 flex-sb-c">
         {elementsGroup1}
       </div>
-      <div className="row-cont group-2 flex-sb">
+      <div className="row-cont group-2 flex-sb-c">
         {elementsGroup2}
       </div>
-      <div className="row-cont group-3 flex-sb">
+      <div className="row-cont group-3 flex-sb-c">
         {elementsGroup3}
       </div>
-      <div className="row-cont group-4 flex-sb">
+      <div className="row-cont group-4 flex-sb-c">
         {elementsGroup4}
       </div>
-      <div className="row-cont group-5 flex-sb">
+      <div className="row-cont group-5 flex-sb-c">
         {elementsGroup5}
       </div>
     </div>

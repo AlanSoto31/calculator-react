@@ -6,29 +6,43 @@
     box-sizing: border-box;
   }
 
-.calc-cont{
-    width: 700px;
-    background: chocolate;
-}
-
-.disp-cont {
-    background: blueviolet;
-}
-
-.row-cont {
-    width: 100%;
-    background: cornflowerblue;
-}
-
-.flex-c {
+.flex-c-c {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.flex-sb {
+.flex-sb-c {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
+.flex-e-c {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.calc-cont{
+    width: 700px;
+    background: chocolate;
+}
+
+.disp-cont {
+    height: 100px;
+    width: 100%;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    padding: 10px;
+    background: #858693;
+}
+
+.row-cont {
+    height: 100px;
+    width: 100%;
+    background: cornflowerblue;
+}
+

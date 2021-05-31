@@ -22,7 +22,7 @@ const App = () => {
 
   return (
     <>
-      <div>
+      <div className="calc-cont">
         <Display result={values.operation ? values.next : values.total} />
         <ButtonPanel clickHandler1={(buttonName) => handleClick(buttonName)} />
       </div>
