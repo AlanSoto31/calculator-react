@@ -1,9 +1,8 @@
 import '@testing-library/jest-dom/extend-expect';
+import renderer from 'react-test-renderer';
 import Home from '../components/Home';
-import renderer from 'react-test-renderer'
 
-
-test("Home component renders", () => {
-    const home = renderer.create(<Home/>).toJSON();
-    expect(home).toMatchSnapshot();
+test('Home component renders', () => {
+  const home = renderer.create(<Home />).toJSON();
+  expect(home).toMatchSnapshot();
 });
