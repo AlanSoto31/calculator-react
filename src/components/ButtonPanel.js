@@ -15,6 +15,7 @@ const ButtonPanel = ({ clickHandler1 }) => {
       name={item}
       clickHandler2={(buttonName) => clickHandler1(buttonName)}
       color={item === '÷' ? '#F5913E' : '#E0E0E0 '}
+      wide={false}
     />
   ));
 
@@ -24,6 +25,7 @@ const ButtonPanel = ({ clickHandler1 }) => {
       name={item}
       clickHandler2={(buttonName) => clickHandler1(buttonName)}
       color={item === 'x' ? '#F5913E' : '#E0E0E0 '}
+      wide={false}
     />
   ));
 
@@ -33,6 +35,7 @@ const ButtonPanel = ({ clickHandler1 }) => {
       name={item}
       clickHandler2={(buttonName) => clickHandler1(buttonName)}
       color={item === '-' ? '#F5913E' : '#E0E0E0 '}
+      wide={false}
     />
   ));
 
@@ -42,6 +45,7 @@ const ButtonPanel = ({ clickHandler1 }) => {
       name={item}
       clickHandler2={(buttonName) => clickHandler1(buttonName)}
       color={item === '+' ? '#F5913E' : '#E0E0E0 '}
+      wide={false}
     />
   ));
 
