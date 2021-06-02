@@ -12,6 +12,7 @@
     A basic calculator app with the purpose of learning about React core concepts like elements,  stateless and stateful components, props, lifting state up, etc. 
 </p>
 
+![screenshot](./public/screenshot.png)
 
 <hr>
 
@@ -80,7 +81,8 @@ Get a local copy, type on console...
 
 ### Testing
 
-- N/A
+1. Go inside the project folder: `cd calculator-react`.
+2. Run the test: `npm run test`.
 
 
 ## Author

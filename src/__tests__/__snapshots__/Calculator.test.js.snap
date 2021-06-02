@@ -1,0 +1,286 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Calculator component renders 1`] = `
+<div
+  className="calc-cont"
+>
+  <div
+    className="disp-cont flex-e-c"
+  >
+    <p>
+      0
+    </p>
+  </div>
+  <div
+    className="flex-c-c"
+  >
+    <div
+      className="row-cont group-1 flex-sb-c"
+    >
+      <button
+        className="btn"
+        onClick={[Function]}
+        style={
+          Object {
+            "background": "#E0E0E0 ",
+            "width": "25%",
+          }
+        }
+        type="button"
+      >
+        AC
+      </button>
+      <button
+        className="btn"
+        onClick={[Function]}
+        style={
+          Object {
+            "background": "#E0E0E0 ",
+            "width": "25%",
+          }
+        }
+        type="button"
+      >
+        +/-
+      </button>
+      <button
+        className="btn"
+        onClick={[Function]}
+        style={
+          Object {
+            "background": "#E0E0E0 ",
+            "width": "25%",
+          }
+        }
+        type="button"
+      >
+        %
+      </button>
+      <button
+        className="btn"
+        onClick={[Function]}
+        style={
+          Object {
+            "background": "#F5913E",
+            "width": "25%",
+          }
+        }
+        type="button"
+      >
+        ÷
+      </button>
+    </div>
+    <div
+      className="row-cont group-2 flex-sb-c"
+    >
+      <button
+        className="btn"
+        onClick={[Function]}
+        style={
+          Object {
+            "background": "#E0E0E0 ",
+            "width": "25%",
+          }
+        }
+        type="button"
+      >
+        7
+      </button>
+      <button
+        className="btn"
+        onClick={[Function]}
+        style={
+          Object {
+            "background": "#E0E0E0 ",
+            "width": "25%",
+          }
+        }
+        type="button"
+      >
+        8
+      </button>
+      <button
+        className="btn"
+        onClick={[Function]}
+        style={
+          Object {
+            "background": "#E0E0E0 ",
+            "width": "25%",
+          }
+        }
+        type="button"
+      >
+        9
+      </button>
+      <button
+        className="btn"
+        onClick={[Function]}
+        style={
+          Object {
+            "background": "#F5913E",
+            "width": "25%",
+          }
+        }
+        type="button"
+      >
+        x
+      </button>
+    </div>
+    <div
+      className="row-cont group-3 flex-sb-c"
+    >
+      <button
+        className="btn"
+        onClick={[Function]}
+        style={
+          Object {
+            "background": "#E0E0E0 ",
+            "width": "25%",
+          }
+        }
+        type="button"
+      >
+        4
+      </button>
+      <button
+        className="btn"
+        onClick={[Function]}
+        style={
+          Object {
+            "background": "#E0E0E0 ",
+            "width": "25%",
+          }
+        }
+        type="button"
+      >
+        5
+      </button>
+      <button
+        className="btn"
+        onClick={[Function]}
+        style={
+          Object {
+            "background": "#E0E0E0 ",
+            "width": "25%",
+          }
+        }
+        type="button"
+      >
+        6
+      </button>
+      <button
+        className="btn"
+        onClick={[Function]}
+        style={
+          Object {
+            "background": "#F5913E",
+            "width": "25%",
+          }
+        }
+        type="button"
+      >
+        -
+      </button>
+    </div>
+    <div
+      className="row-cont group-4 flex-sb-c"
+    >
+      <button
+        className="btn"
+        onClick={[Function]}
+        style={
+          Object {
+            "background": "#E0E0E0 ",
+            "width": "25%",
+          }
+        }
+        type="button"
+      >
+        1
+      </button>
+      <button
+        className="btn"
+        onClick={[Function]}
+        style={
+          Object {
+            "background": "#E0E0E0 ",
+            "width": "25%",
+          }
+        }
+        type="button"
+      >
+        2
+      </button>
+      <button
+        className="btn"
+        onClick={[Function]}
+        style={
+          Object {
+            "background": "#E0E0E0 ",
+            "width": "25%",
+          }
+        }
+        type="button"
+      >
+        3
+      </button>
+      <button
+        className="btn"
+        onClick={[Function]}
+        style={
+          Object {
+            "background": "#F5913E",
+            "width": "25%",
+          }
+        }
+        type="button"
+      >
+        +
+      </button>
+    </div>
+    <div
+      className="row-cont group-5 flex-sb-c"
+    >
+      <button
+        className="btn"
+        onClick={[Function]}
+        style={
+          Object {
+            "background": "#E0E0E0 ",
+            "width": "50%",
+          }
+        }
+        type="button"
+      >
+        0
+      </button>
+      <button
+        className="btn"
+        onClick={[Function]}
+        style={
+          Object {
+            "background": "#E0E0E0 ",
+            "width": "25%",
+          }
+        }
+        type="button"
+      >
+        .
+      </button>
+      <button
+        className="btn"
+        onClick={[Function]}
+        style={
+          Object {
+            "background": "#F5913E",
+            "width": "25%",
+          }
+        }
+        type="button"
+      >
+        =
+      </button>
+    </div>
+  </div>
+</div>
+`;
